@@ -1,0 +1,187 @@
+/* header start */
+
+.header_section .container-fluid {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header_section .nav_container {
+    margin: 0 auto;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 40px 20px 10px 20px;
+    color: #151515;
+    text-align: center;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    line-height: inherit;
+    color: #037D80;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 40px 20px 10px 20px;
+    color: #151515;
+    text-align: center;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    line-height: inherit;
+    color: #037D80;
+}
+
+div#navbarSupportedContent {
+    background: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: initial;
+}
+
+.nav_search-btn {
+    background-image: url(../images/search-icon.png);
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position-y: 7px;
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    border: none;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+.navbar-toggler {
+    outline: none;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url(../img/menu.png);
+    background-size: 45px;
+}
+
+.quote_btn-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.quote_btn-container a img {
+    width: 20px;
+    margin: 0 25px;
+}
+
+
+/* header stop */
+
+
+/* 产品部分start */
+
+.Chinese_section .box {
+    margin: 45px 0;
+}
+
+.Chinese_head {
+    padding-top: 20px;
+    width: 100%;
+}
+
+.Chinese_section head_chinese img {
+    width: 100%;
+}
+
+.Chinese_section .box .img-box {
+    position: relative;
+}
+
+.Chinese_section .box .img-box img {
+    width: 100%;
+}
+
+.Chinese_section .box .img-box .img_date {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    text-align: center;
+    background-color: #ac9784;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.Chinese_section .box .img-box .img_date h6 {
+    margin: 0;
+}
+
+.Chinese_section .box .detail-box {
+    margin-top: 25px;
+}
+
+.Chinese_section .box .detail-box h4 {
+    text-transform: uppercase;
+}
+
+.Chinese_section .box .detail-box a {
+    display: inline-block;
+    padding: 8px 25px;
+    background-color: #ac9784;
+    color: #ffffff;
+    margin-top: 35px;
+}
+
+.Chinese_section .box .detail-box a:hover {
+    background-color: #000000;
+}
+
+button:not(:disabled),
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled) {
+    cursor: pointer;
+}
+
+.pagination .page-item a.page-link {
+    color: #000;
+    background-color: transparent;
+    border-radius: 0.25rem;
+}
+
+.page-item+.page-item {
+    margin-left: .5rem;
+}
+
+.page-item.active a.page-link {
+    color: #fff;
+    background-color: #ac9784;
+}
+
+.page-item .page-link:hover {
+    border: 1px solid #ac9784;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}

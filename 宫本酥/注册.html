@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- bootstrap core css s-->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+<link href="css/登录注册style.css" rel="stylesheet" />
+
+<script type="text/javascript">
+    function get_value() {
+        var password1 = document.getElementById("password1");
+        var password2 = document.getElementById("password2");
+        if (password1.value != password2.value) {
+            alert("密码不一致！")
+        } else {
+            alert("保存成功")
+        }
+    }
+</script>
+
+<body>
+    <!-- 注册 start -->
+    <div class="login-contect py-5">
+        <div class="container py-xl-5 py-3">
+            <div class="login-body">
+                <div class="login p-4 mx-auto">
+                    <h5 class="text-center mb-4">注册</h5>
+                    <form method="post">
+                        <div class="form-group">
+                            <label>您的昵称</label>
+                            <input type="text" class="form-control" name="name" placeholder="" required="">
+                        </div>
+                        <div class="form-group">
+                            <label>邮箱</label>
+                            <input type="email" class="form-control" name="email" placeholder="" required="">
+                        </div>
+                        <div class="form-group">
+                            <label class="mb-2">密码</label>
+                            <input type="password" class="form-control" name="password" id="password1" placeholder="" required="">
+                        </div>
+                        <div class="form-group">
+                            <label>再次输入密码</label>
+                            <input type="password" class="form-control" name="password" id="password2" placeholder="" required="">
+                        </div>
+                        <button type="submit" class="btn submit mb-4" onclick="get_value()">注册</buttn>
+                        <button type="button" class="btn submit mb-4" "> <a href="./登录.html">去登录</a> </button>
+                        <p class="text-center">
+                            <a href="#" class="text-da">By clicking Register, I agree to your terms</a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 注册stop -->
+</body>
+
+</html>

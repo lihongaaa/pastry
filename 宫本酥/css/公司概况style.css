@@ -1,0 +1,186 @@
+/* 关于我们 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 40px 20px 10px 20px;
+    color: #151515;
+    text-align: center;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    line-height: inherit;
+    color: #037D80;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 40px 20px 10px 20px;
+    color: #000000;
+    text-align: center;
+}
+
+div#navbarSupportedContent {
+    background: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: initial;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+.navbar-toggler {
+    outline: none;
+}
+
+.header {
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+}
+
+.quote_btn-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.quote_btn-container a {
+    color: #000000;
+}
+
+.quote_btn-container a img {
+    width: 20px;
+    margin: 0 25px;
+}
+
+.title {
+    padding-top: 60px;
+}
+
+.title-text {
+    margin-top: 90px;
+}
+
+h3.title {
+    font-size: 40px;
+}
+
+p.title-text {
+    padding-top: 50px;
+    color: #ff578c;
+    font-size: 19px;
+    position: relative;
+}
+
+p.title-text:before,
+p.title-text:after {
+    content: "";
+    background: #037D80;
+    width: 20%;
+    height: 4px;
+    box-shadow: 0px 3px 4px 1px rgba(0, 0, 0, 0.09);
+    position: absolute;
+    top: 60%;
+}
+
+p.title-text:before {
+    left: 17%;
+}
+
+p.title-text:after {
+    right: 17%;
+}
+
+p.about-left-agile {
+    font-size: 40px;
+}
+
+.video-w3l h3 {
+    font-size: 36px;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.video-w3l p {
+    font-size: 20px;
+    box-shadow: 0px 4px 6px 1px rgba(249, 249, 249, 0.25);
+    background: rgba(8, 8, 8, 0.3);
+    font-weight: 500;
+    color: #fe578c;
+    margin: 3em 0;
+}
+
+.video-w3l {
+    background: rgba(0, 0, 0, 0.08);
+}
+
+.video-w3l {
+    background: url(../img/糖水2.png) no-repeat fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+}
+
+.my-3 {
+    font-size: 20px;
+}
+
+.stats_left p .btn-link {
+    font-size: 60px;
+    color: #037D80;
+    font-weight: 400;
+}
+
+.stats_left h4 {
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.inner_stat_wthree_agileits {
+    background: rgba(167, 163, 163, 0.58);
+}
+
+.btn-link {
+    color: #037D80;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: rgb(224, 204, 204);
+    text-decoration: none;
+    border: none;
+}
+
+.client-grids h4 {
+    font-size: 23px;
+    color: black;
+    letter-spacing: 2px;
+}

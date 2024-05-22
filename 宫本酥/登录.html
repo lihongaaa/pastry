@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link href="css/登录注册style.css" rel="stylesheet" />
+    <!-- 调用方法 -->
+    <script>
+        function myFunction() {
+            if (document.getElementById("user").value == "admin") {
+                if (document.getElementById("password").value == "123123") {
+                    alert("登录成功"),
+                        window.location.replace('./首页.html')
+                } else {
+                    alert("密码错误");
+                }
+            } else {
+                alert("账号密码都错");
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <!-- 登录start -->
+    <div class="login-contect py-5">
+        <div class="container py-xl-5 py-3">
+            <div class="login-body">
+                <div class="login p-4 mx-auto">
+                    <h5 class="text-center mb-4">登录</h5>
+                    <form method="post">
+                        <div class="form-group">
+                            <label>用户名</label>
+                            <input type="text" id="user" class="form-control" name="name" placeholder="" required="">
+                        </div>
+                        <div class="form-group">
+                            <label class="mb-2">密码</label>
+                            <input type="password" id="password" class="form-control" name="password" placeholder="" required="">
+                        </div>
+                        <button type="button" class="btn submit mb-4" onclick="myFunction()"> 登录 </button>
+                        <p class="forgot-w3ls text-center mb-3">
+                            <a href="#" class="text-da">忘记密码</a>
+                        </p>
+                        <p class="account-w3ls text-center text-da">
+                            没有账号？
+                            <a href="./注册.html">现在去注册</a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 登录stop -->
+
+</body>
+
+</html>
